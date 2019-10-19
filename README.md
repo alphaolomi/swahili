@@ -16,7 +16,7 @@ yarn add swahili
 ## Usage
 
 ```javascript
-const Swahili = require("./random");
+const Swahili = require("swahili");
 
 const sw = new Swahili();
 

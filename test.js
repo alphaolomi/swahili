@@ -1,4 +1,4 @@
-const Swahili = require("./random");
+const Swahili = require("swahili");
 
 const sw = new Swahili();
 console.log(sw.random());
