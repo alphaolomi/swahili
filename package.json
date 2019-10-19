@@ -1,0 +1,27 @@
+{
+  "name": "swahili",
+  "version": "1.0.0",
+  "description": "Generate random swahili words",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaolomi/swahili.git"
+  },
+  "keywords": [
+    "swahili",
+    "words",
+    "language",
+    "generate",
+    "random",
+    "algorithm"
+  ],
+  "author": "Alpha Olomi <hello@alphaolomi.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphaolomi/swahili/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/swahili#readme"
+}
