@@ -1,4 +1,4 @@
-const Swahili = require("swahili");
+import Swahili from "swahili";
 
 const sw = new Swahili();
 console.log(sw.random());
