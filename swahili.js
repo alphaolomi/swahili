@@ -1,4 +1,4 @@
-const list = require("./words.json");
+import list, { length } from "./words.json";
 
 /**
  * Generate an swahili of words
@@ -6,20 +6,22 @@ const list = require("./words.json");
  * @param Integer word_count
  * @return Array|String
  */
-function swahili(word_count = 1) {
-  this.random = function() {
-    if (word_count > 0) {
-      const word = list[Math.floor(Math.random() * list.length)];
-      return word.sw;
-    } else {
-      const words = [];
-      for (let i = 1; i < words_count; i++) {
-        const word = list[Math.floor(Math.random() * list.length)];
-        words.push(word);
+class swahili {
+  constructor(word_count = 1) {
+    this.random = function() {
+      if (word_count > 0) {
+        const word = list[Math.floor(Math.random() * length)];
+        return word.sw;
+      } else {
+        const words = [];
+        for (let i = 1; i < words_count; i++) {
+          const word = list[Math.floor(Math.random() * length)];
+          words.push(word);
+        }
+        return words;
       }
-      return words;
-    }
-  };
+    };
+  }
 }
 
-module.exports = swahili;
+export default swahili;
