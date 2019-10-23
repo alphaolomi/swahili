@@ -3,27 +3,22 @@
 [![Software License][ico-license]](LICENSE.md)
 [![npm][ico-version]](https://www.npmjs.com/package/swahili)
 
-Generate swahiili words
+Generate random swahiili words
 
 ## Quick start
 
 ```bash
-npm i swahili
-# or
 yarn add swahili
 ```
 
 ## Usage
 
 ```javascript
-const Swahili = require("swahili");
+import swahili from 'swahili';
 
-const sw = new Swahili();
+const sw = new swahili();
 
-// Generate one word
-console.log(sw.random()); // mimi
-
-console.log(sw.random(2)); // ['yule', 'na']
+console.log(sw.random()); // Output: fedha
 ```
 
 ## Changelog
