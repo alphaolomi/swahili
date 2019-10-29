@@ -48,6 +48,10 @@ If you discover any security related issues, please email [hello@alphaolomi.com]
 
 The Apache 2 License. Please see [License File](LICENSE) for more information.
 
+## Credits
+
+[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/0)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/0)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/1)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/1)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/2)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/2)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/3)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/3)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/4)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/4)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/5)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/5)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/6)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/6)[![](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/images/7)](https://sourcerer.io/fame/alphaolomi/alphaolomi/swahili/links/7)
+
 [ico-version]: https://img.shields.io/npm/v/swahili?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
 [link-author]: https://github.com/alphaolomi
