@@ -1,6 +1,6 @@
 # swahili [![Software License][ico-license]](LICENSE.md) [![npm][ico-version]](https://www.npmjs.com/package/swahili) [![Github Fork](https://img.shields.io/github/forks/alphaolomi/swahili?logo=github&style=flat-square)](https://github.com/alphaolomi/swahili) [![NPM](https://nodei.co/npm/swahili.png?mini=true)](https://nodei.co/npm/swahili/)
 
-Generate random swahiili words
+Generate random swahili words
 
 ## Quick start
 
