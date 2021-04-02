@@ -14,7 +14,7 @@ class swahili {
         return word.sw;
       } else {
         const words = [];
-        for (let i = 1; i < words_count; i++) {
+        for (let i = 1; i < word_count; i++) {
           const word = list[Math.floor(Math.random() * length)];
           words.push(word);
         }
