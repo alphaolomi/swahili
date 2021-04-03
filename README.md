@@ -37,7 +37,7 @@ const sw = new swahili(10); // string output with 10 words
 console.log(sw.paragraph()); 
 ```
 
-### Paragrah from random words 
+### Array from random words 
 
 ```javascript
 import swahili from 'swahili';
