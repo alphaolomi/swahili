@@ -9,6 +9,7 @@ yarn add swahili
 ```
 
 ## Usage
+### Generate random word
 
 ```javascript
 import swahili from 'swahili';
@@ -17,7 +18,34 @@ const sw = new swahili();
 
 console.log(sw.random()); // Output: fedha
 ```
+### Random words by passing number of words argument in the costructor
 
+```javascript
+import swahili from 'swahili';
+
+const sw = new swahili(10); // json output with 10 words
+
+console.log(sw.random()); 
+```
+### Paragrah from random words 
+
+```javascript
+import swahili from 'swahili';
+
+const sw = new swahili(10); // string output with 10 words
+
+console.log(sw.paragraph()); 
+```
+
+### Array from random words 
+
+```javascript
+import swahili from 'swahili';
+
+const sw = new swahili(10); // array output with 10 words
+
+console.log(sw.randomArray()); 
+```
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
