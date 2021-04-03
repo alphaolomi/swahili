@@ -1,10 +1,11 @@
 {
   "name": "swahili",
   "version": "1.0.1-0",
+  "type":"module",
   "description": "Generate random swahili words",
   "main": "random.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "node --experimental-json-modules --no-warnings=ExperimentalWarning  test.js"
   },
   "repository": {
     "type": "git",

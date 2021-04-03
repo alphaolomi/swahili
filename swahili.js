@@ -1,4 +1,6 @@
-import list, { length } from "./words.json";
+import list from "./words.json";
+
+//const length = Object.keys(list).length
 
 /**
  * Generate an swahili of words
@@ -9,18 +11,38 @@ import list, { length } from "./words.json";
 class swahili {
   constructor(word_count = 1) {
     this.random = function() {
-      if (word_count > 0) {
-        const word = list[Math.floor(Math.random() * length)];
+      if (word_count == 1) {
+        const word = list[Math.floor(Math.random() * list.length)];
         return word.sw;
       } else {
         const words = [];
-        for (let i = 1; i < words_count; i++) {
-          const word = list[Math.floor(Math.random() * length)];
+        for (let i = 1; i < word_count; i++) {
+          const word = list[Math.floor(Math.random() * list.length)];
           words.push(word);
         }
         return words;
       }
     };
+    
+    this.randomArray = function(){
+    const words = [];
+    for (let i = 1; i <= word_count; i++) {
+      const word = list[Math.floor(Math.random() * list.length)];
+      words.push(word.sw);
+    }
+    return words;
+  }
+  
+    // Generate paragraph from word_count random words
+    this.paragraph = function(){
+    let  words = '';
+    for (let i = 1; i <= word_count; i++) {
+      const word = list[Math.floor(Math.random() * list.length)];
+      words += word.sw + ' ';
+    }
+    return words.trim();
+  }
+
   }
 }
 
