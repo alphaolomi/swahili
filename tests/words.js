@@ -1,4 +1,4 @@
-import swahili from './swahili.js'
+import swahili from '../swahili.js'
 
 let word = new swahili(10)
 
