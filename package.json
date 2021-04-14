@@ -3,15 +3,16 @@
   "version": "1.0.1-0",
   "type":"module",
   "description": "Generate random swahili words",
-  "main": "random.js",
+  "main": "swahili.js",
   "scripts": {
-    "test": "node --experimental-json-modules --no-warnings=ExperimentalWarning  test.js"
+    "test": "node --experimental-json-modules --no-warnings=ExperimentalWarning  ./tests/words.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alphaolomi/swahili.git"
   },
   "keywords": [
+    "kiswahili",
     "swahili",
     "words",
     "language",
@@ -20,7 +21,7 @@
     "algorithm"
   ],
   "author": "Alpha Olomi <hello@alphaolomi.com>",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/alphaolomi/swahili/issues"
   },
